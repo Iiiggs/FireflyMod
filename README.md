@@ -8,7 +8,7 @@ http://www.t-firefly.com/share/index/listpath/id/a2bdd74136fc8d2bfd68fb956dd6ca2
 Firefly-RK3399_Android7.1.1_MP_171209/
 
 2. Download and apply the modification to the device by running the following commands in firefly mod directory:
-'''
+```
 adb root
 adb wait-for-device
 adb remount
@@ -25,4 +25,4 @@ adb push system/lib/hw/sensors.rk30board.so system/lib/hw/
 adb push system/lib64/hw/sensors.rk30board.so system/lib64/hw/
 adb push data/camera/media_profiles.xml data/camera/
 adb reboot
-'''
+```
